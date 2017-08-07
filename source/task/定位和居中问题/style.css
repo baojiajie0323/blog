@@ -1,0 +1,36 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.position_center {
+    background-color: #ccc;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+    overflow: hidden;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #fc0;
+    border-radius: 50%;
+}
+
+.pos_lt {
+    position: absolute;
+    left: -50px;
+    top: -50px;
+}
+
+.pos_rb {
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+}

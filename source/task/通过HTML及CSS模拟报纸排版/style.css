@@ -1,0 +1,47 @@
+﻿body {
+    margin: 0;
+    padding: 20px;
+}
+
+.teamcontainer {
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 20px;
+    overflow: auto;
+}
+
+.teamcontent {
+    float: left;
+    padding: 20px;
+    border: 1px solid #999;
+    background-color: white;
+    width: 160px;
+}
+
+.teamcontent>img {
+    float: left;
+}
+
+.teamcontent>p {
+    margin: 0 0 0 10px;
+    float: left;
+}
+
+.descontent {
+    padding: 20px;
+    margin: 0 140px 0 220px;
+    border: 1px solid #999;
+    background-color: white;
+}
+
+.usercontent {
+    float: right;
+    width: 120px;
+    padding: 20px 0;
+    border: 1px solid #999;
+    background-color: white;
+}
+
+.usercontent>img {
+    margin: 0 20px;
+}
