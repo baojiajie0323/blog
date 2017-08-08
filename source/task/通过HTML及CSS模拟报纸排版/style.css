@@ -1,47 +1,38 @@
 ﻿body {
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    background-color: rgb(93, 93, 93);
 }
 
-.teamcontainer {
-    background-color: #eee;
-    border: 1px solid #999;
-    padding: 20px;
-    overflow: auto;
+p{
+    margin: 0;
 }
 
-.teamcontent {
-    float: left;
-    padding: 20px;
-    border: 1px solid #999;
-    background-color: white;
-    width: 160px;
-}
-
-.teamcontent>img {
-    float: left;
-}
-
-.teamcontent>p {
-    margin: 0 0 0 10px;
-    float: left;
-}
-
-.descontent {
-    padding: 20px;
-    margin: 0 140px 0 220px;
-    border: 1px solid #999;
+.newspaper {
+    position: absolute;
+    left: 50%;
+    margin-left: -490px;
+    width: 980px;
+    height: 1386px;
+    padding: 0 44px;
     background-color: white;
 }
 
-.usercontent {
-    float: right;
-    width: 120px;
-    padding: 20px 0;
-    border: 1px solid #999;
-    background-color: white;
+#logo {
+    position: relative;
+    width: 110px;
+    height: 61px;
+    background-color: rgb(213, 93, 92);
 }
 
-.usercontent>img {
-    margin: 0 20px;
+#logo>p {
+    position: absolute;
+    bottom: 3px;
+    color: white;
+    font: 12px "黑体";
+}
+
+#titleline{
+    height: 2px;
+    background-color: #938e8c;
 }
